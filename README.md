@@ -5,7 +5,7 @@
 `git clone https://github.com/PraktikumJava/git-hints.git`
 
 ```mermaid
-graph LR;
+graph TD;
   untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked/comitted;
   tracked/comitted --> "Changings" --> modified;
