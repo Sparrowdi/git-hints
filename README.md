@@ -8,8 +8,6 @@
 graph TD;
   untracked -- "git add" --> staged;
   staged    -- "git commit"     --> tracked/comitted;
-  tracked/comitted --> "Changings" --> modified;
   modified --> "git add" --> staged;
-  staged --> "Changings" --> modified; 
 
 ``` 
